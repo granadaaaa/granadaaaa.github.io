@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            half life
+        </title>
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        <div id="header">
+            Phone books
+        </div>
+        
+        <div id="box">
+            <div id="insideBox">
+                <div class="boxHeader">
+                    <button class="buttonText" onclick="show1()">add</button> or  
+                    <button class="buttonText" onclick="show2()">search</button> numbers 
+                    
+                </div>
+                <div id="option">    
+                </div>
+                <div id="operation1">
+                    <div class="label1">
+                        <input id='nameField1' type='text' placeholder="Add number" maxlength='25'></input>
+                    </div>
+                    <div class="label2">
+                        <input id='nameField2' type='text' placeholder="Add name" maxlength='25'></input>
+                    </div>
+                    <div id="submit">
+                        <button class="buttonSubmit" onclick="submit()">Submit</button>
+                    </div>
+
+                </div>
+                <div id="operation2">
+                    <div class="label3">
+                        
+                        <input id='searchInput' type='text' placeholder="Number" maxlength='25'></input>
+                        
+                    </div>
+                    <div class="searchBox"></div>
+                    
+                </div>
+                
+                
+
+            </div>
+        </div>
+        
+        <script src="run.js"></script>
+    </body>
+</html>
